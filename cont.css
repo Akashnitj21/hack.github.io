@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+.navigation {
+    background-color: white;
+    overflow: hidden; 
+    
+  }
+
+ nav span{
+    padding-right: 10cm;
+    margin-right: 3cm;
+  }
+
+  nav img{
+    width: 150px;
+    cursor: pointer;
+
+}
+  
+ 
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+ 
+  .navigation li {    
+    display: inline-block;
+    margin-right: 20px;
+
+  }
+  
+  .navigation li a {
+    display: block;
+    color: rgb(66, 188, 39); 
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none; 
+    
+  }
+  
+
+  .navigation li a:hover {
+    color: #080603;
+  }
+  
+
+  .olympiad{
+    background-color: #b8fd38;
+    width: 50%;
+    height: 80px;
+    margin-left: 1cm;
+    font-size: 25px;
+    text-align: center;
+    
+  }
+  
+
+  #olympiads{
+    margin-left: 1cm;
+  }
+
+  #olympiads h1{
+    color:  rgb(66, 188, 39);
+  }
+  #olympiads a{
+    color: #000;
+    text-decoration: none;
+  }
+
+  #olympiads a:hover{
+    text-decoration: underline;
+  }
+
+  .para{
+    
+    width: 50%;
+    margin-left: 1cm;
+    text-align: start;
+
+  }
+
+
+  .imo {
+    margin-left: 1cm;
+    border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+    padding: 20px; /* Padding around the content inside the box */
+    margin: 20px; /* Margin around the box, adjust as needed */
+    background-color: #f0f0f0; /* Background color for the box */
+    width: 55%;
+    
+}
+
+.ieo {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.nso {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.igko{
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.nco{
+  
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.ico{
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.prmo {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.rmo {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.inmo{
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.ioaa {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.iao {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.ibo {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.incho {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.inao{
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.inbo {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.nstse {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.nseb {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.nsejs {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.nsec {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.nsep {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.iom {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.ioqjs {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.ioqm {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+}
+
+.im {
+  margin-left: 1cm;
+  border: 2px solid #000; /* Border style, adjust thickness and color as needed */
+  padding: 20px; /* Padding around the content inside the box */
+  margin: 20px; /* Margin around the box, adjust as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  width: 55%;
+  text-align: start;
+}
+
+.im li{
+  list-style: circle;
+  
+}
+
+  footer{
+    padding: 8vw;
+    background-color:rgb(47, 141, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2cm;
+
+}
+
+footer .footer-col{
+    padding-bottom:40px;
+
+}
+
+footer h3{
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+
+footer li{
+    list-style: none;
+    color: #ffed49;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer li:hover{
+    color: #F9F9FF;
+
+}
+
+footer p{
+    color: #f1ef7d;
+}
+
+footer .subscribe{
+    margin-top: 20px;
+
+}
+
+footer input{
+    width: 220px;
+    padding:15px 12px;
+    background: #0c1830;
+    border: none;
+    color: #fff;
+}
+
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #ffff;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+
+footer .subscribe a.yellow{
+    color: #ffff;
+    background: #b8fd38;
+    transition: 0.3s ease;
+
+}
+
+footer .subscribe a.yellow:hover{
+    color: rgb(21, 21,100);
+    background:#ffff;
+    
+}
+
+footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+
+
+footer .copyright .pro-links{
+    margin-top: 10px;
+}
+
+footer .copyright .pro-links i{
+    padding: 10px 13px;
+    border: 1px solid rgb(215, 215, 225);
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer .copyright p{
+ color: #F9F9FF;   
+}
+
+
+footer .copyright .pro-links i:hover{
+    background: rgb(84, 84, 105);
+    color: #F9F9FF;
+    border: 1px solid  rgb(21,21,100);
+    cursor: pointer;
+
+}
+  /* Media query for responsiveness */
+  @media screen and (max-width: 600px) {
+    .navigation li {
+      float: none; /* Remove float to create a vertical layout */
+      width: 100%; /* Make each list item take up the full width */
+    }
+  }
+
+  
+  
+
+
+
+
+
+/*CODE FOR OLYMIPIAD SECTION */
+/* Style the olympiad section */
+#olympiads {
+  border: 2px solid black; /* Add a 2px solid black border */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  padding: 20px;
+  margin-top: 20px; /* Add 20px of margin above the section */
+  max-width: 600px; /* Set a maximum width for responsiveness */
+  
+}
+
+
+.olym{
+  padding-left: 10px;
+  
+}
+
+/* Add margin to the bottom of each <li> element */
+#olympiads .olym li {
+  margin-bottom: 10px; /* Adjust the value to control the spacing */
+}
+
+/* Alternatively, you can use padding on the top of each <li> element */
+#olympiads .olym li {
+  padding-top: 10px; /* Adjust the value to control the spacing */
+}
+
+
+.paraContainer{ 
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.paraContainer h1{
+  /* Your styles for the heading here */
+  letter-spacing: 3.2px;
+  font-size: 1.6rem;
+}
+
+/* Style the paragraph (p) inside .paraContainer */
+.paraContainer p {
+  /* Your styles for the paragraph here */
+  letter-spacing: 1px;
+  font-size:1.2rem;
+  /* Additional styles if needed */
+}
+

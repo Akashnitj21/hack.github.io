@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    z-index: 100;
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 28px;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color:  rgb(66, 188, 39);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+
+
+
+}
+
+nav .navigation ul li a:hover{
+    color: #080703;
+
+}
+
+#olympaids .olym {
+    width: 2cm;
+    background-color: blue;
+}
+
+
+

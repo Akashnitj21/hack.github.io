@@ -1,0 +1,104 @@
+/* Style the navigation bar */
+.navigation {
+    background-color: #333; /* Background color of the navigation bar */
+    overflow: hidden; /* Ensure child elements stay within the navigation bar */
+  }
+  
+  /* Style the list items */
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navigation links */
+  .navigation li {
+    float: left; /* Float the list items to create a horizontal layout */
+  }
+  
+  .navigation li a {
+    display: block;
+    color: white; /* Text color of the links */
+    text-align: center;
+    padding: 14px 16px; /* Spacing around the links */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  /* Change the background color of the navigation links on hover */
+  .navigation li a:hover {
+    background-color: #555;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 600px) {
+    .navigation li {
+      float: none; /* Remove float to create a vertical layout */
+      width: 100%; /* Make each list item take up the full width */
+    }
+  }
+
+  
+  
+
+
+
+
+
+/*CODE FOR OLYMIPIAD SECTION */
+/* Style the olympiad section */
+#olympiads {
+  border: 2px solid black; /* Add a 2px solid black border */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  padding: 20px;
+  margin-top: 20px; /* Add 20px of margin above the section */
+  max-width: 600px; /* Set a maximum width for responsiveness */
+  
+}
+
+
+.olym{
+  padding-left: 10px;
+  
+}
+
+/* Add margin to the bottom of each <li> element */
+#olympiads .olym li {
+  margin-bottom: 10px; /* Adjust the value to control the spacing */
+}
+
+/* Alternatively, you can use padding on the top of each <li> element */
+#olympiads .olym li {
+  padding-top: 10px; /* Adjust the value to control the spacing */
+}
+
+
+.paraContainer{ 
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.paraContainer h1{
+  /* Your styles for the heading here */
+  letter-spacing: 3.2px;
+  font-size: 1.6rem;
+}
+
+/* Style the paragraph (p) inside .paraContainer */
+.paraContainer p {
+  /* Your styles for the paragraph here */
+  letter-spacing: 1px;
+  font-size:1.2rem;
+  /* Additional styles if needed */
+}
+
+
+
+/*CODE FOR SCROLL ANIMATION*/
+html{ 
+  scroll-behavior: smooth;
+} 
+
+body{
+  transition: scroll-behavior 0.5s ease-in-out;
+}
